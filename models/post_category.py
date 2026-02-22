@@ -2,6 +2,7 @@ from sqlalchemy import Column, Integer, ForeignKey, PrimaryKeyConstraint
 from sqlalchemy.orm import relationship
 from database import Base
 
+
 class PostCategory(Base):
     __tablename__ = "posts_category"
 

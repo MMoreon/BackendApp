@@ -2,6 +2,7 @@ from sqlalchemy import Column, Integer, String, DateTime
 from sqlalchemy.orm import relationship
 from database import Base
 
+
 class Category(Base):
     __tablename__ = "category"
 
