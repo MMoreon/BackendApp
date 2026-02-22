@@ -12,4 +12,4 @@ Backend-приложение для блога с админскими CRUD-оп
 - Аутентификация: JWT (access/refresh), пароли — bcrypt
 
 ## БД 
-![Логическая модель](https://web.telegram.org/6f3c892e-4862-4634-a453-871a95c437c0](https://disk.yandex.ru/client/disk?idApp=client&dialog=slider&idDialog=%2Fdisk%2FлогическаяМодель.png))
+![Логическая модель](https://disk.yandex.ru/client/disk?idApp=client&dialog=slider&idDialog=%2Fdisk%2FлогическаяМодель.png)
