@@ -12,4 +12,4 @@ Backend-приложение для блога с админскими CRUD-оп
 - Аутентификация: JWT (access/refresh), пароли — bcrypt
 
 ## БД 
-![Логическая модель](https://disk.yandex.ru/i/yJcFKFCvDJNQaQ)
+![Логическая модель](https://disk.yandex.ru/d/yJcFKFCvDJNQaQ&raw=1)
