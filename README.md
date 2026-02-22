@@ -12,4 +12,4 @@ Backend-приложение для блога с админскими CRUD-оп
 - Аутентификация: JWT (access/refresh), пароли — bcrypt
 
 ## БД 
-![Логическая модель](https://ibb.co/hRbHWhZt)
+![Логическая модель](https://raw.githubusercontent.com/MMoreon/BackendApp/refs/heads/main/image/логическаяМодель.png)
