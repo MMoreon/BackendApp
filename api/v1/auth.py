@@ -12,6 +12,7 @@ from security import (
     create_refresh_token, get_current_user
 )
 
+
 router = APIRouter(prefix="/auth", tags=["Authentication"])
 
 @router.post("/register", response_model=UserResponse)
