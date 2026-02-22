@@ -6,6 +6,7 @@ from schemas.user import UserResponse, UserUpdate
 from models.user import User
 from security import get_current_admin
 
+
 router = APIRouter(prefix="/users", tags=["Users"])
 
 @router.get("/", response_model=List[UserResponse])
