@@ -4,6 +4,7 @@ from database import engine, Base
 from config import settings
 from api.api import router as api_router
 
+
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
