@@ -2,6 +2,7 @@ from pydantic import BaseModel, EmailStr, Field
 from typing import Optional
 from enum import Enum
 
+
 class UserRole(str, Enum):
     USER = "USER"
     ADMIN = "ADMIN"

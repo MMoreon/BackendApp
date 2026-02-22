@@ -3,6 +3,7 @@ from schemas.category import CategoryBase, CategoryCreate, CategoryUpdate, Categ
 from schemas.post import PostBase, PostCreate, PostUpdate, PostResponse
 from schemas.auth import RegisterRequest, LoginRequest, TokenResponse
 
+
 __all__ = [
     "UserBase", "UserCreate", "UserUpdate", "UserResponse", "UserRole",
     "CategoryBase", "CategoryCreate", "CategoryUpdate", "CategoryResponse", 

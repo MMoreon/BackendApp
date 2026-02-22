@@ -4,6 +4,7 @@ from datetime import datetime
 from schemas.user import UserResponse
 from schemas.category import CategoryResponse
 
+
 class PostBase(BaseModel):
     title: str
     content: str
