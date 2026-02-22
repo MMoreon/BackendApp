@@ -2,17 +2,17 @@
 # FastAPI Blog Backend
 Backend-приложение для блога с админскими CRUD-операциями, публичным API и системой управления пользователям
 
-## для запуска приложения
-* создаем виртуальное окружение
-MAC: python3 -m venv venv
-WIN: python -m venv venv
-* активируем
-MAC: source venv/bin/activate
-WIN: venv\Scripts\activate
-* устанавливаем необходимые пакеты
-pip install -r req.txt
-* запустить
-uvicorn main:app --reload
+## Для запуска приложения
+создаем виртуальное окружение
+* MAC: python3 -m venv venv
+* WIN: python -m venv venv
+активируем
+* MAC: source venv/bin/activate
+* WIN: venv\Scripts\activate
+устанавливаем необходимые пакеты
+* pip install -r req.txt
+запустить
+* uvicorn main:app --reload
 
 ## Технологический стек
 
