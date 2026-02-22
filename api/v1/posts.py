@@ -7,6 +7,7 @@ from schemas.post import PostCreate, PostUpdate, PostResponse
 from models import Post, PostCategory, Category, User
 from security import get_current_admin, get_current_user
 
+
 router = APIRouter(prefix="/posts", tags=["Posts"])
 
 # публичные эндпоинты, админские с: current_user: User = Depends(get_current_admin)
