@@ -7,6 +7,7 @@ from models.category import Category
 from models.user import User
 from security import get_current_admin, get_current_user
 
+
 router = APIRouter(prefix="/categories", tags=["Categories"])
 
 # обычные
