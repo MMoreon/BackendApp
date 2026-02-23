@@ -1,0 +1,10 @@
+
+services:
+  backend:
+    build: .
+    container_name: backend_app
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./DataBlog.db:/app/DataBlog.db
+    restart: unless-stopped
